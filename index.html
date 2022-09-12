@@ -2,7 +2,9 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 
@@ -25,7 +27,7 @@
                 <a href="/teainfo.html">Tea information</a>
             </li>
             <li>
-                <a href="/Aboutme.html">About me</a>
+                <a href="about.html">About me</a>
             </li>
             <li>
                 <a href="/contact.html">Contact</a>
@@ -43,23 +45,42 @@
                 Iure blanditiis iusto tempora aperiam exercitationem fuga. Blanditiis itaque magnam deleniti sit!</p>
         </article>
 
-        <ul class="imagesOfTea">
+        <ul id="teBild" class="imagesOfTea">
             <li><img src="banner.png" alt="Tea field"> </li>
             <li><img src="tea3.png" alt="tea pic"></li>
         </ul>
+
+        <div id="box">
+            <h2> Klicka på bilden för att läsa mer om te! </h2>
+            <div id="omTe" class="startBild"></div>
+        </div>
+
+
     </main>
     <section class="join">
         <h2>Join Today!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia accusantium, 
             consequuntur aut tempora iure sequi vel, dolores pariatur inventore temporibus 
             deleniti ea dolor architecto dolore dolorem ullam rem! Quidem, dolorum.</p>
-        <form>
-            <input type="email" name="email" placeholder="Type email & hit enter" required>
+        <form id="form">
+            <input id="name" type="text" name="name" placeholder="Type name & hit enter" required>
+            <button type="submit">Submit</button> 
         </form>
     </section>
     <footer>
         <p class="copyright">Copyright 2022 Make Tea</p>
+        <a href="about.html">Om mig</a>
     </footer>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>  
 
 </body>
 

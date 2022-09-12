@@ -172,3 +172,45 @@ form input:valid{
 section.join p::first-letter{
     font-size: 1.3em;
 }
+
+@media screen and (max-width:800px) {
+    .banner .welcome h2{
+       font-size: 20px;
+    }
+}
+
+#new-task-submit{
+  cursor:pointer;  
+}
+#new-task-submit:active{
+opacity: 0.3;
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(220, 166, 166);
+}
+
+#box{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.startBild{
+    width: 900px;
+    height: 500px;
+    background: url('nyBanner.png') no-repeat;
+    margin:auto;
+
+}
+
+.merInfo{
+    width: 900px;
+    height: 500px;
+    background: url('info.png') no-repeat;
+    margin:auto;
+}
