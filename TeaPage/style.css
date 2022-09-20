@@ -1,0 +1,237 @@
+body, ul, li, h1, h2, a{
+    margin:0;
+    padding: 0;
+    font-family: ariel;
+}
+
+
+
+header{
+background-color: rgb(183, 214, 164);
+padding: 20 px;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 1;
+top:0px;
+left: 0px;
+}
+
+header h1{
+color:white;
+border: 5px solid white;
+padding: 20px 12px;
+margin: 20px;
+display: inline-block;
+border-radius: 100px;
+}
+
+.banner {
+    position: relative;
+
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    position: absolute;
+    left: 0 px;
+    top: 30%;
+    background-color: rgb(173, 207, 164);
+    color: white;
+    padding: 30px;
+}
+.banner {
+    font-size: 30px;
+}
+
+.baner h2 {
+    font-size: 0;
+}
+
+.banner h2 span {
+font-size: 1.3em;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(179, 190, 172);
+    padding: 20px;
+    position: sticky; /* gör att navigationsbaren stannar*/
+    top: 120px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200 px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 20%;
+    display: inline-block;
+    font-size: 24px;
+   
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+nav li a.join{
+    color: rgb(36, 52, 26);;
+
+}
+main{
+    max-width: 100%;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color:rgb(135, 181, 107);
+    font-size: 50px;
+}
+article p{
+    line-height: 2em;
+    color: rgb(39, 70, 43);
+}
+
+//Ändrar utseende på min unorderd list och centrerar det som är i den. 
+.imagesOfTea{
+    text-align: center;
+    margin:80px 0;
+    white-space: nowrap;
+}
+
+.imagesOfTea li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 20px;
+}
+
+
+.imagesOfTea li img{
+    max-width: 100%;
+}
+
+/*Ändrar uteende på join rutan längst ner på sidan*/
+section.join{
+    background: rgb(194, 193, 193);
+    text-align: center;
+    padding: 60px 20;
+    color:rgb(255, 242, 226);
+}
+
+.join h2{
+    font-size: 36px;
+}
+
+form input{
+    margin: 20px 0;
+    padding:10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 4px solid white;
+}
+
+footer{
+    background:  rgb(179, 190, 172);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* pseudo klasser när an ex hovrar över nav så blir det understruket och hovrar över bilderna så flyttas de lite*/
+nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.imagesOfTea li:hover{
+    position: relative;
+    top:-4px;
+
+}
+
+form input:focus{
+    border:4px dashed #4b4b4b;
+    outline:none;
+}
+
+form input:valid{
+   border: 4px solid #71d300; 
+}
+
+
+/*ändrar storleken på första bokstaven i joinsektionen*/
+section.join p::first-letter{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:800px) {
+    .banner .welcome h2{
+       font-size: 20px;
+    }
+}
+
+#new-task-submit{
+  cursor:pointer;  
+}
+#new-task-submit:active{
+opacity: 0.3;
+}
+
+#changeColor{
+    margin: 0 auto;
+    text-align: center;
+}
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(220, 166, 166);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+#button{
+    background-color: rgb(149, 198, 223);
+    margin-top: 520px; 
+    margin-bottom: 100px;
+}
+
+#box{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.startBild{
+    width: 900px;
+    height: 500px;
+    background: url('nyBanner.png') no-repeat;
+    margin:auto;
+}
+
+.merInfo{
+    width: 900px;
+    height: 400px;
+    background: url('info.png') no-repeat;
+    margin:auto;
+}
+
+#bilder > img{
+margin: 0 auto;
+max-width: 400px;
+margin: 50px;
+}
