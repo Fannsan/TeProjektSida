@@ -243,3 +243,10 @@ margin: 0 auto;
 max-width: 400px;
 margin: 50px;
 }
+
+#infoRubrik{
+    text-align: center;
+}
+#table{
+    background-color: #b7d598;
+}
