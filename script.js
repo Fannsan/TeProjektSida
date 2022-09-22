@@ -1,6 +1,6 @@
 
 //Här skapar jag en variabel infoTe och tilldelar det mitt hämtade id omTe som finns i min HTML.
-var infoTe = document.getElementById('omTe');
+let infoTe = document.getElementById('omTe');
 
 //Här gör jag en funktion som innebär att om man klickar på bilden så anropas klassen "mer info" och visar den andra bilden.
 infoTe.addEventListener('click', function(infoTe){
