@@ -84,7 +84,7 @@ nav li a{
     
 }
 
-nav li a.join{
+nav li a.home{
     color: rgb(36, 52, 26);;
 
 }
@@ -105,7 +105,7 @@ article p{
     color: rgb(39, 70, 43);
 }
 
-//Ändrar utseende på min unorderd list och centrerar det som är i den. 
+/*Ändrar utseende på min unorderd list och centrerar det som är i den. */
 .imagesOfTea{
     text-align: center;
     margin:80px 0;
@@ -221,6 +221,7 @@ opacity: 0.3;
     height: 500px;
     background: url('nyBanner.png') no-repeat;
     margin:auto;
+    max-width: 100%;
 }
 
 .merInfo{
@@ -228,6 +229,13 @@ opacity: 0.3;
     height: 400px;
     background: url('info.png') no-repeat;
     margin:auto;
+    max-width: 100%;
+}
+
+.startBild:hover{
+    position: relative;
+    bottom:-4px;
+
 }
 
 #bilder > img{

@@ -1,12 +1,12 @@
 
 
 
-// variabler
-const names = ["tea1.png", "tea2.png", "tea3.png" , "fruktte.png", "puerh.jpg"];
+// jag skapar en i en array
+const names = ["tea1.png", "tea2.png", "matchate.jpg" , "fruktte.png", "puerh.jpg", "matt.jpg"];
 
 //Loopen, 
 for(let i = 0; i < names.length; i++){
-  //Här skapar jag en bildtag
+  //Här skapar jag en bild-tag
   const bild = document.createElement("img");
   //här går jag igenom arrayen med bilder
   bild.src = names[i];
