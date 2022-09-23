@@ -195,12 +195,6 @@ section.join p::first-letter{
     }
 }
 
-#new-task-submit{
-    cursor:pointer;  
-  }
-  #new-task-submit:active{
-  opacity: 0.3;
-  }
 
 #changeColor{
     margin: 0 auto;
