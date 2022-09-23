@@ -11,7 +11,7 @@ infoTe.addEventListener('click', function(infoTe){
 //skapar en constant som heter join och hämtar ID knapp och tilldelar join det värdet.
 const join = document.getElementById('knapp');
 
-//Här skapas en funktion som lissnar på att man trycker på knappen
+//Här skapas en funktion som lyssnar på att man trycker på knappen
 join.addEventListener('click', function(){
     //skapar en let variabel för att den ska kunna ändras
     let text;
